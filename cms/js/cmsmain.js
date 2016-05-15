@@ -45,7 +45,7 @@ function processData(data) {
         var postcontainer = document.getElementById('posts-list');
 
         var link = document.createElement('a');
-        link.setAttribute('href', "editpost.php?postId=" + data.newsposts[i].id);
+        link.setAttribute('href', 'editpost.php?postId=' + data.newsposts[i].id);
 
         var post = document.createElement('div');
         post.setAttribute('class', 'news-updates-post');
@@ -56,9 +56,24 @@ function processData(data) {
         posttitle.setAttribute('id', 'news-updates-post-title');
         posttitle.innerHTML = data.newsposts[i].title;
 
+        var deletelink = document.createElement('a');
+        deletelink.setAttribute('href', 'deletepost.php?postId=' + data.newsposts[i].id);
+
+        var deletetext = document.createElement('div');
+        deletetext.setAttribute('class', 'deletetext');
+        deletetext.setAttribute('id', 'deletetext');
+        deletetext.innerHTML =  'Delete';
+
+        var deletediv = document.createElement('div');
+        deletediv.setAttribute('class', 'delete');
+        deletediv.setAttribute('id', 'delete');
+
         postcontainer.appendChild(link);
         link.appendChild(post);
         post.appendChild(posttitle);
+        post.appendChild(deletelink);
+        deletelink.appendChild(deletediv);
+        deletediv.appendChild(deletetext);
 
     }
 }

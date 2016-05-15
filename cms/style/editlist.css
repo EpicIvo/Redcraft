@@ -27,14 +27,16 @@ a{
     text-align: center;
 }
 .news-updates-post{
-
+    height: 100px;
 }
 .news-updates-post-title{
     padding: 20px;
     font-size: 20pt;
-    background-color: #2e2e2e;
+    display: inline-block;
+    line-height: 65px;
+
 }
-.news-updates-post-title:hover{
+.news-updates-post:hover{
     background-color: aliceblue;
     color: black;
     cursor: pointer;
@@ -64,4 +66,17 @@ a{
     font-family: "Avenir Next", sans-serif;
     font-size: 25pt;
     padding-left: 40px;
+}
+.delete{
+    display: inline-block;
+    float: right;
+    font-size: 20pt;
+    background-color: rgba(255, 70, 40, 1);
+    height: 100px;
+    line-height: 100px;
+    width: 10%;
+    text-align: center;
+}
+.delete:hover{
+    background-color: #cc0000;
 }

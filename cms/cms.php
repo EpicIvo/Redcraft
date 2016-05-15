@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
     if ($orderresult) {
         echo "<div class='succes-message'>The post has been posted!</div>";
     }
-
+    else{}
 
 }
 

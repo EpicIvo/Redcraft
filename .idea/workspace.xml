@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defada68-d823-4eea-a13c-feb5dfec6602" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/cms.php" afterPath="$PROJECT_DIR$/cms/cms.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/editlist.php" afterPath="$PROJECT_DIR$/cms/editlist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/editpost.php" afterPath="$PROJECT_DIR$/cms/editpost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/js/cmsmain.js" afterPath="$PROJECT_DIR$/cms/js/cmsmain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/style/editlist.css" afterPath="$PROJECT_DIR$/cms/style/editlist.css" />
     </list>
     <ignored path="Redcraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,57 +28,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editpost.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/editpost.php">
+      <file leaf-file-name="deletepost.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/deletepost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.0">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.61946905">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
-                <marker date="1463337587000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
-                <marker date="1463337587000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1423" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1440" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1456" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1458" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1469" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1474" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1475" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1401:1482" placeholder="UPDATE news ..." />
-                <marker date="1463337587000" expanded="true" signature="1407:1417" placeholder="INSERT INTO news..." />
+                <marker date="1463339798000" expanded="true" signature="531:557" placeholder="DELETE FROM ..." />
+                <marker date="1463339798000" expanded="true" signature="531:566" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cms.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms/cms.php">
+      <file leaf-file-name="cmsmain.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/js/cmsmain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15486726">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <marker date="1463334391000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editlist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/editlist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="editlist.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/style/editlist.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/cms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.0">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <marker date="1463311603000" expanded="true" signature="403:461" placeholder="SELECT id, t..." />
+                <marker date="1463338296000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
               </folding>
             </state>
           </provider>
@@ -90,7 +82,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cms/editlist.php" />
+        <option value="$PROJECT_DIR$/cms/cms.php" />
         <option value="$PROJECT_DIR$/cms/editpost.php" />
+        <option value="$PROJECT_DIR$/cms/js/cmsmain.js" />
+        <option value="$PROJECT_DIR$/cms/style/editlist.css" />
+        <option value="$PROJECT_DIR$/cms/deletepost.php" />
       </list>
     </option>
   </component>
@@ -172,6 +168,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,26 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/editpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1463337587000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
-            <marker date="1463337587000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1423" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1440" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1456" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1458" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1469" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1474" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1475" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1401:1482" placeholder="UPDATE news ..." />
-            <marker date="1463337587000" expanded="true" signature="1407:1417" placeholder="INSERT INTO news..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/editlist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
@@ -317,12 +311,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cms/editpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <marker date="1463338303000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
+            <marker date="1463338303000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1423" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1440" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1456" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1458" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1469" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1474" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1475" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1401:1482" placeholder="UPDATE news ..." />
+            <marker date="1463338303000" expanded="true" signature="1407:1417" placeholder="INSERT INTO news..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/style/editlist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/js/cmsmain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cms/cms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15486726">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <marker date="1463334391000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
+            <marker date="1463338296000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/deletepost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61946905">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1463339798000" expanded="true" signature="531:557" placeholder="DELETE FROM ..." />
+            <marker date="1463339798000" expanded="true" signature="531:566" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>

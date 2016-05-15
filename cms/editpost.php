@@ -50,7 +50,8 @@ if (isset($_POST['submit'])) {
     $orderresult = mysqli_query($connection, $sqladdpost);
 
     if ($orderresult) {
-        echo "<div class='succes-message'>The post has been updated</div>";
+        header("Location: cms.php");
+        exit;
     }
 
 
