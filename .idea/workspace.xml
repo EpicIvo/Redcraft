@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="defada68-d823-4eea-a13c-feb5dfec6602" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/editlist.php" afterPath="$PROJECT_DIR$/cms/editlist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/editpost.php" afterPath="$PROJECT_DIR$/cms/editpost.php" />
     </list>
     <ignored path="Redcraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,25 +25,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editpost.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editpost.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/editpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48672566">
-              <caret line="103" column="86" selection-start-line="103" selection-start-column="86" selection-end-line="103" selection-end-column="86" />
+            <state vertical-scroll-proportion="-30.0">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
-                <marker date="1463337160000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
-                <marker date="1463337160000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
-                <marker date="1463337160000" expanded="true" signature="1401:1477" placeholder="INSERT INTO news..." />
+                <marker date="1463337587000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
+                <marker date="1463337587000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1423" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1440" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1456" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1458" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1469" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1474" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1475" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1401:1482" placeholder="UPDATE news ..." />
+                <marker date="1463337587000" expanded="true" signature="1407:1417" placeholder="INSERT INTO news..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cms.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cms.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/cms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.15486726">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <marker date="1463334391000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
               </folding>
@@ -272,14 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/editlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15486726">
@@ -288,24 +289,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/cms.php">
+    <entry file="file://$PROJECT_DIR$/cms/editpost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+        <state vertical-scroll-proportion="-30.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <marker date="1463334391000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
+            <marker date="1463337587000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
+            <marker date="1463337587000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1423" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1440" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1456" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1458" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1469" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1474" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1475" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1401:1482" placeholder="UPDATE news ..." />
+            <marker date="1463337587000" expanded="true" signature="1407:1417" placeholder="INSERT INTO news..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/editpost.php">
+    <entry file="file://$PROJECT_DIR$/cms/editlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48672566">
-          <caret line="103" column="86" selection-start-line="103" selection-start-column="86" selection-end-line="103" selection-end-column="86" />
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/cms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15486726">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <marker date="1463337160000" expanded="true" signature="567:618" placeholder="SELECT id, t..." />
-            <marker date="1463337160000" expanded="true" signature="567:625" placeholder="SELECT id, t..." />
-            <marker date="1463337160000" expanded="true" signature="1401:1477" placeholder="INSERT INTO news..." />
+            <marker date="1463334391000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
           </folding>
         </state>
       </provider>

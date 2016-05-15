@@ -45,12 +45,12 @@ if (isset($_POST['submit'])) {
     $content = mysqli_escape_string($connection, $_POST['content']);
     $date = mysqli_escape_string($connection, $_POST['date']);
 
-    $sqladdpost = "INSERT INTO news (title, content, date) VALUES ('$title','$content','$date') ";
+    $sqladdpost = "UPDATE news SET title='$title',content='$content',date='$date' WHERE id='$postid'";
 
     $orderresult = mysqli_query($connection, $sqladdpost);
 
     if ($orderresult) {
-        echo "<div class='succes-message'>The post has been posted!</div>";
+        echo "<div class='succes-message'>The post has been updated</div>";
     }
 
 
