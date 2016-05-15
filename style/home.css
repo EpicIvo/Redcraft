@@ -1,0 +1,98 @@
+/* MAIN */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* PLAY AT */
+.ip-adress-container{
+    background-color: #cc0000;
+    float: right;
+    display: inline-block;
+}
+.ip-adress-play-at{
+    display: inline-block;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 40pt;
+    color: white;
+}
+.ip-adress{
+    display: inline-block;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 40pt;
+    color: #2e2e2e;
+}
+/* MAIN TITLE */
+.main-title{
+    background-color: #2e2e2e;
+    height: 150px;
+}
+.main-title-text{
+    line-height: 175px;
+    font-size: 80pt;
+    font-family: "Adobe Naskh", sans-serif;
+    color: #cc0000;
+    padding-left: 20px;
+    display: inline-block;
+}
+/* CONTENT */
+.content{
+    background-color: white;
+    width: 100%;
+    height: 200vh;
+}
+/* CHAT */
+.chat{
+    border-right: 2px solid black;
+    width: 19.8%;
+    display: inline-block;
+    height: 200vh;
+    float: left;
+}
+.chatfixed{
+    margin-top: -150px;
+    position: fixed;
+    border-right: 2px solid black;
+    width: 19.8%;
+    display: inline-block;
+    height: 200vh;
+    float: left;
+}
+.chat-title{
+    text-align: center;
+    font-family: "Adobe Naskh", sans-serif;
+    font-size: 70pt;
+}
+/* NEWS UPDATES */
+.news-updates{
+    display: inline-block;
+    width: 80%;
+    float: right;
+    text-align: center;
+}
+.news-updates-title{
+    font-family: "Avenir Next", sans-serif;
+    color: #2e2e2e;
+    font-size: 50pt;
+    border-bottom: 2px solid black;
+}
+/* POST */
+.news-updates-post{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.news-updates-post-date{
+    font-family: "Avenir Next", sans-serif;
+    float: right;
+    text-decoration: underline;
+    padding: 5px;
+}
+.news-updates-post-title{
+    font-family: "Avenir Next", sans-serif;
+    font-size: 24pt;
+    padding-top: 40px;
+}
+.news-updates-post-content{
+    width: 80%;
+    text-align: justify;
+    margin: 50px auto;
+}

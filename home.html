@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style/home.css">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 150) {
+                $('#chat').addClass('chatfixed');
+            } else {
+                $('#chat').removeClass('chatfixed');
+            }
+        });
+    </script>
+</head>
+<body>
+
+<div class="header">
+
+    <div class="main-title">
+        <div class="main-title-text">
+            Redcraft
+        </div>
+
+        <div class="ip-adress-container">
+            <div class="ip-adress-play-at">
+                Play at:
+            </div>
+            <div class="ip-adress">
+                play.redcraft.org
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="content">
+
+    <div id="chat" class="chat">
+        <div class="chat-title">
+            Chat
+        </div>
+    </div>
+
+    <div class="news-updates" id="news-updates">
+
+        <div class="news-updates-title">
+            News Updates
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/main.js" type="text/javascript">
+</script>
+</body>
+</html>
