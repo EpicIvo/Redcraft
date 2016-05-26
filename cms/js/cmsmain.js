@@ -62,7 +62,7 @@ function processData(data) {
         var deletetext = document.createElement('div');
         deletetext.setAttribute('class', 'deletetext');
         deletetext.setAttribute('id', 'deletetext');
-        deletetext.innerHTML =  'Delete';
+        deletetext.innerHTML = 'Delete';
 
         var deletediv = document.createElement('div');
         deletediv.setAttribute('class', 'delete');
