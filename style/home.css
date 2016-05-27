@@ -3,6 +3,10 @@ body{
     margin: 0;
     padding: 0;
 }
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 /* PLAY AT */
 .ip-adress-container{
     background-color: #cc0000;
@@ -33,6 +37,26 @@ body{
     color: #cc0000;
     padding-left: 20px;
     display: inline-block;
+}
+/* MENU LINK */
+.menu-link{
+    position: absolute;
+    display: inline-block;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 70pt;
+    text-align: center;
+    width: 100%;
+}
+.menu-link-icon{
+    text-align: center;
+    width: 10%;
+    height: 100px;
+    background-color: #2d8ac7;
+    margin: auto;
+    transition-duration: 1s;
+}
+.menu-link-icon:hover{
+    background-color: #7acaff;
 }
 /* CONTENT */
 .content{
