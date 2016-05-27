@@ -12,6 +12,8 @@ a{
     background-color: #cc0000;
     float: right;
     display: inline-block;
+    border: 1px solid #FFFFFF;
+    margin-top: 37.5px;
 }
 .ip-adress-play-at{
     display: inline-block;
@@ -51,12 +53,20 @@ a{
     text-align: center;
     width: 10%;
     height: 100px;
-    background-color: #2d8ac7;
     margin: auto;
     transition-duration: 1s;
+    background-image: url('http://localhost/Redcraft/media/arrow.png');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .menu-link-icon:hover{
-    background-color: #7acaff;
+}
+.arrow{
+    width: 90px;
+}
+.menu-link-clickable{
+    color: rgba(0,0,0,0);
 }
 /* CONTENT */
 .content{
