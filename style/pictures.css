@@ -11,16 +11,20 @@ a{
 .ip-adress-container{
     background-color: #cc0000;
     text-align: center;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 2px solid #2E2E2E;
+    height: 80px;
+    line-height: 80px;
 }
 .ip-adress-play-at{
-    font-family: "Avenir Next", sans-serif;
     display: inline-block;
+    font-family: "Avenir Next", sans-serif;
     font-size: 40pt;
     color: white;
 }
 .ip-adress{
-    font-family: "Avenir Next", sans-serif;
     display: inline-block;
+    font-family: "Avenir Next", sans-serif;
     font-size: 40pt;
     color: #2e2e2e;
 }
