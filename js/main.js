@@ -70,37 +70,3 @@ function processData(data) {
 
     }
 }
-
-//var jellesCijfersGemiddeld = 0;
-//var timsCijfersGemiddeld = 0;
-//var examenCijfersGemiddeld = jellesCijfersGemiddeld + timsCijfersGemiddeld;
-//var partyHard = false;
-//var havefun = false;
-//
-//function examens(){
-//
-//    jellesCijfersGemiddeld = 10;
-//    timsCijfersGemiddeld = 10;
-//
-//}
-//
-//examens();
-//
-//if(jellesCijfersGemiddeld > 5.6 && timsCijfersGemiddeld > 5.6 ){
-//    geakkeFissa();
-//}else{
-//    herkansing();
-//}
-//
-//function geakkeFissa(){
-//
-//    partyHard = true;
-//    havefun = true;
-//
-//}
-//
-//function herkansing(){
-//
-//    examenCijfersGemiddeld = 20;
-//
-//}

@@ -10,20 +10,17 @@ a{
 /* PLAY AT */
 .ip-adress-container{
     background-color: #cc0000;
-    float: right;
-    display: inline-block;
-    border: 1px solid #FFFFFF;
-    margin-top: 37.5px;
+    text-align: center;
 }
 .ip-adress-play-at{
-    display: inline-block;
     font-family: "Avenir Next", sans-serif;
+    display: inline-block;
     font-size: 40pt;
     color: white;
 }
 .ip-adress{
-    display: inline-block;
     font-family: "Avenir Next", sans-serif;
+    display: inline-block;
     font-size: 40pt;
     color: #2e2e2e;
 }
@@ -61,12 +58,16 @@ a{
     height: 150px;
 }
 .main-title-text{
-    line-height: 175px;
+    line-height: 200px;
     font-size: 80pt;
     font-family: "Adobe Naskh", sans-serif;
     color: #cc0000;
     padding-left: 20px;
     display: inline-block;
+}
+.title-image{
+    height: 70px;
+    line-height: 150px;
 }
 /* CONTENT */
 .content{

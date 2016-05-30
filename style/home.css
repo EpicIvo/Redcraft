@@ -10,10 +10,11 @@ a{
 /* PLAY AT */
 .ip-adress-container{
     background-color: #cc0000;
-    float: right;
-    display: inline-block;
-    border: 1px solid #FFFFFF;
-    margin-top: 37.5px;
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 2px solid #2E2E2E;
+    height: 80px;
+    line-height: 80px;
 }
 .ip-adress-play-at{
     display: inline-block;
@@ -33,12 +34,16 @@ a{
     height: 150px;
 }
 .main-title-text{
-    line-height: 175px;
+    line-height: 200px;
     font-size: 80pt;
     font-family: "Adobe Naskh", sans-serif;
     color: #cc0000;
     padding-left: 20px;
     display: inline-block;
+}
+.title-image{
+    height: 70px;
+    line-height: 150px;
 }
 /* MENU LINK */
 .menu-link{
@@ -79,16 +84,16 @@ a{
     border-right: 2px solid black;
     width: 19.8%;
     display: inline-block;
-    height: 200vh;
+    height: 100vh;
     float: left;
 }
 .chatfixed{
-    margin-top: -150px;
+    margin-top: -233px;
     position: fixed;
     border-right: 2px solid black;
     width: 19.8%;
     display: inline-block;
-    height: 200vh;
+    height: 100vh;
     float: left;
 }
 .chat-title{
