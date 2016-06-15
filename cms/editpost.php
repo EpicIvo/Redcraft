@@ -7,6 +7,7 @@ if (!isset($_SESSION['loggedIn'])) {
     exit;
 }
 
+// Try to connect with the database to get the data
 try {
     $connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
 } catch (Exception $e) {
@@ -29,7 +30,7 @@ $returnData['meta'] = [
     "row_count" => $result->num_rows
 ];
 
-//Merge the data from the database with the images from flickr into the newly created returnData
+//Merge the data from the database so that it is easily accessible in an associative array
 while ($row = $result->fetch_assoc()) {
     $returnData['newsposts'] = [
         "id" => $row['id'],
@@ -39,6 +40,7 @@ while ($row = $result->fetch_assoc()) {
     ];
 }
 
+// Replace the original post data with the new data when the user clicks on submit
 if (isset($_POST['submit'])) {
 
     $title = mysqli_escape_string($connection, $_POST['title']);

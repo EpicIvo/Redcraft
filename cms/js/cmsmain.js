@@ -33,7 +33,10 @@ function ajaxRequest() {
 }
 
 // function for processing the data to front end
-
+/**
+ * 
+ * @param data
+ */
 function processData(data) {
 
     console.log(data);

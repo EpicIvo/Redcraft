@@ -3,6 +3,8 @@
 session_start();
 require_once "/Applications/XAMPP/htdocs/Redcraft/database/settings.php";
 
+
+// Try to connect with the database to get the data
 try {
     $connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
 } catch (Exception $e) {
@@ -12,14 +14,15 @@ try {
     exit;
 }
 
-//Hier wordt gekeken of de gebruiker al is ingelogd, als dat zo is dan wordt de gebruiker doorgestuurd naar de bestelpagina
+//Is the user that is trying to log in already logged in?
 if (isset($_SESSION['loggedIn'])) {
     header("Location: cms.php");
     exit;
 }
 
-// Als er op login wordt gedrukt dan checkt de code of de ingevoerde naam en het wachtwoord samen in de database voorkomen
-// Als dat zo is dan stuurt de pagina je door naar de bestelpagina en anders zegt hij dat het niet klopt
+// If you click on login the website checks if the username and password you filled in exist in the database
+// If this is the case it sends you to the cms page
+// If this is not the case, it shows an error message
 if (isset($_POST['submit'])) {
 
     $name = mysqli_escape_string($connection, $_POST['name']);
