@@ -8,7 +8,6 @@ function init() {
 }
 
 // ajax request for the database data with news posts
-
 function ajaxRequest() {
 
     var data = {};
@@ -32,10 +31,10 @@ function ajaxRequest() {
 
 }
 
-// function for processing the data to front end
+// function for processing the data out of the database to front end
 /**
- * 
- * @param data
+ *
+ * @param data (database data as a JSON object)
  */
 function processData(data) {
 

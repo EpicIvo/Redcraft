@@ -85,9 +85,17 @@ a{
     display: inline-block;
 }
 .name{
-    width: 80%;
+    width: 60%;
     display: inline-block;
     font-family: "Avenir Next", sans-serif;
     font-size: 25pt;
     padding-left: 40px;
+}
+.newAcc{
+    display: inline-block;
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    font-size: 15pt;
+    background-color: #2d8ac7;
+    padding: 10px;
 }

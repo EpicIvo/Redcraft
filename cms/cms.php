@@ -108,6 +108,14 @@ if (isset($_POST['submit'])) {
         You are logged in as: <?= $_SESSION['loggedIn']; ?>
     </div>
 
+    <div class="newAcc">
+
+        <a href="createaccount.php">
+            Create a new admin account
+        </a>
+
+    </div>
+
 </div>
 </body>
 </html>

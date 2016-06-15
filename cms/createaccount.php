@@ -1,8 +1,18 @@
 <?php
-
+/**
+ * Created by PhpStorm.
+ * User: ivovanderknaap
+ * Date: 15/06/16
+ * Time: 10:54
+ */
 session_start();
 require_once "/Applications/XAMPP/htdocs/Redcraft/database/settings.php";
 
+
+if (!isset($_SESSION['loggedIn'])) {
+    header("Location: login.php");
+    exit;
+}
 
 // Try to connect with the database to get the data
 try {
@@ -14,29 +24,19 @@ try {
     exit;
 }
 
-//Is the user that is trying to log in already logged in?
-if (isset($_SESSION['loggedIn'])) {
-    header("Location: cms.php");
-    exit;
-}
-
 // If you click on login the website checks if the username and password you filled in exist in the database
 // If this is the case it sends you to the cms page
 // If this is not the case, it shows an error message
 if (isset($_POST['submit'])) {
 
     $name = mysqli_escape_string($connection, $_POST['name']);
-    $password = mysqli_escape_string($connection, $_POST['password']);
+    $password = password_hash(mysqli_escape_string($connection, $_POST['password']), PASSWORD_DEFAULT);
 
-    $getAllUsers = "SELECT * FROM users WHERE name='$name'";
+    $queryAddUser = "INSERT INTO users (name, password) VALUES ('$name','$password')";
 
-    $allUsersResult = mysqli_query($connection, $getAllUsers);
+    $result = mysqli_query($connection, $queryAddUser);
 
-    $allUsersArray = mysqli_fetch_assoc($allUsersResult);
-
-    $hash = $allUsersArray['password'];
-
-    if (password_verify($password, $hash)) {
+    if ($result) {
 
         $_SESSION['loggedIn'] = $name;
 
@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
         exit;
 
     } else {
-        echo "<div class='error'>your password doesn't appear in our database</div>";
+        echo "<div class='error'>Something went wrong</div>";
     }
 }
 
@@ -60,7 +60,7 @@ if (isset($_POST['submit'])) {
 <body>
 
 <div class="title">
-    Login
+    Create a new account
 </div>
 
 <form class="form" method="post" action="<?= $_SERVER['REQUEST_URI']; ?>">

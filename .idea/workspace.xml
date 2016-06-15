@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="defada68-d823-4eea-a13c-feb5dfec6602" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/editpost.php" afterPath="$PROJECT_DIR$/cms/editpost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/cms.php" afterPath="$PROJECT_DIR$/cms/cms.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/js/cmsmain.js" afterPath="$PROJECT_DIR$/cms/js/cmsmain.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/login.php" afterPath="$PROJECT_DIR$/cms/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/style/cms.css" afterPath="$PROJECT_DIR$/cms/style/cms.css" />
     </list>
     <ignored path="Redcraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="deletepost.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/deletepost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-17.5">
               <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <marker date="1463339798000" expanded="true" signature="531:566" placeholder="DELETE FROM ..." />
@@ -40,11 +40,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editlist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/editlist.php">
+      <file leaf-file-name="cmsmain.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/js/cmsmain.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <marker date="1463311603000" expanded="true" signature="403:461" placeholder="SELECT id, t..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/cms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.125">
+              <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+              <folding>
+                <marker date="1465983775000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/style/cms.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.75">
+              <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -53,31 +87,28 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state vertical-scroll-proportion="-43.125">
+              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
               <folding>
-                <marker date="1465935703000" expanded="true" signature="1000:1080" placeholder="SELECT count..." />
+                <marker date="1465983568000" expanded="true" signature="998:1030" placeholder="SELECT * FRO..users..." />
+                <marker date="1465983568000" expanded="true" signature="998:1031" placeholder="SELECT * FRO..users..." />
+                <marker date="1465983568000" expanded="true" signature="998:1035" placeholder="SELECT * FRO..users..." />
+                <marker date="1465983568000" expanded="true" signature="998:1036" placeholder="SELECT * FRO..users..." />
+                <marker date="1465983568000" expanded="true" signature="1492:1511" placeholder="..." />
+                <marker date="1465983568000" expanded="true" signature="1629:1642" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+      <file leaf-file-name="createaccount.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/createaccount.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cmsmain.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms/js/cmsmain.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12116317">
-              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-              <folding />
+            <state vertical-scroll-proportion="0.15486726">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <marker date="1465983912000" expanded="true" signature="1065:1128" placeholder="INSERT INTO users..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +116,7 @@
       <file leaf-file-name="editpost.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/editpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-8.75">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <marker date="1465936051000" expanded="true" signature="619:670" placeholder="SELECT id, t..." />
@@ -112,7 +143,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cms/editlist.php" />
-        <option value="$PROJECT_DIR$/cms/cms.php" />
         <option value="$PROJECT_DIR$/cms/style/editlist.css" />
         <option value="$PROJECT_DIR$/cms/deletepost.php" />
         <option value="$PROJECT_DIR$/style/home.css" />
@@ -123,9 +153,12 @@
         <option value="$PROJECT_DIR$/style/tournaments.css" />
         <option value="$PROJECT_DIR$/tournaments.html" />
         <option value="$PROJECT_DIR$/cms/editpost.php" />
-        <option value="$PROJECT_DIR$/cms/login.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/cms/js/cmsmain.js" />
+        <option value="$PROJECT_DIR$/cms/login.php" />
+        <option value="$PROJECT_DIR$/cms/cms.php" />
+        <option value="$PROJECT_DIR$/cms/createaccount.php" />
+        <option value="$PROJECT_DIR$/cms/style/cms.css" />
       </list>
     </option>
   </component>
@@ -136,9 +169,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="737" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -269,10 +301,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cmgtprgm02" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -315,7 +348,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2956381" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -350,21 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/tournaments.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -596,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/cms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -621,13 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11912752">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -666,42 +670,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/deletepost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <marker date="1463339798000" expanded="true" signature="531:566" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/editpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1465936051000" expanded="true" signature="619:670" placeholder="SELECT id, t..." />
-            <marker date="1465936051000" expanded="true" signature="1530:1611" placeholder="UPDATE news ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/editlist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <marker date="1465935703000" expanded="true" signature="1000:1080" placeholder="SELECT count..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +688,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/js/cmsmain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12116317">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/editpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1465936051000" expanded="true" signature="619:670" placeholder="SELECT id, t..." />
+            <marker date="1465936051000" expanded="true" signature="1530:1611" placeholder="UPDATE news ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/deletepost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1463339798000" expanded="true" signature="531:566" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/style/cms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.75">
+          <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1463311603000" expanded="true" signature="403:461" placeholder="SELECT id, t..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-43.125">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding>
+            <marker date="1465983568000" expanded="true" signature="998:1030" placeholder="SELECT * FRO..users..." />
+            <marker date="1465983568000" expanded="true" signature="998:1031" placeholder="SELECT * FRO..users..." />
+            <marker date="1465983568000" expanded="true" signature="998:1035" placeholder="SELECT * FRO..users..." />
+            <marker date="1465983568000" expanded="true" signature="998:1036" placeholder="SELECT * FRO..users..." />
+            <marker date="1465983568000" expanded="true" signature="1492:1511" placeholder="..." />
+            <marker date="1465983568000" expanded="true" signature="1629:1642" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/cms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.125">
+          <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+          <folding>
+            <marker date="1465983775000" expanded="true" signature="736:812" placeholder="INSERT INTO news..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/createaccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15486726">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1465983912000" expanded="true" signature="1065:1128" placeholder="INSERT INTO users..." />
+          </folding>
         </state>
       </provider>
     </entry>
