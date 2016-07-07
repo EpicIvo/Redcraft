@@ -12,7 +12,7 @@ function ajaxRequest() {
 
     var data = {};
     var request = new XMLHttpRequest();
-    request.open('GET', 'http://localhost/Redcraft/index.php', true);
+    request.open('GET', 'http://localhost/Redcraft/php/index.php', true);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
             console.log("succes");
@@ -38,13 +38,15 @@ function ajaxRequest() {
  */
 function processData(data) {
 
+    //Logging the data so that you can always see what de request is providing
     console.log(data);
-
-    console.log(data.newsposts[0].title);
 
     for (i = 0; i < data.newsposts.length; i++) {
 
         var postcontainer = document.getElementById('news-updates');
+
+        var fullpost = document.createElement('a');
+        fullpost.setAttribute('href', 'fullpost.php?id=' + data.newsposts[i].id);
 
         var post = document.createElement('div');
         post.setAttribute('class', 'news-updates-post');
@@ -65,7 +67,8 @@ function processData(data) {
         postcontent.setAttribute('id', 'news-updates-post-content');
         postcontent.innerHTML = data.newsposts[i].content;
 
-        postcontainer.appendChild(post);
+        postcontainer.appendChild(fullpost);
+        fullpost.appendChild(post);
         post.appendChild(postdate);
         post.appendChild(posttitle);
         post.appendChild(postcontent);

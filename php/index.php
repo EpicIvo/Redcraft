@@ -1,6 +1,6 @@
 <?php
 
-require_once('database/settings.php');
+require_once('/Applications/XAMPP/htdocs/Redcraft/database/settings.php');
 
 try {
     $connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);

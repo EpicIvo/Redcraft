@@ -4,15 +4,14 @@ body{
     padding: 0;
 }
 a{
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 /* PLAY AT */
 .ip-adress-container{
-    background-color: #cc0000;
+    background-color: #BF0603;
     text-align: center;
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 2px solid #2E2E2E;
+    border-bottom: 3px solid #3E92CC;
     height: 80px;
     line-height: 80px;
 }
@@ -20,18 +19,19 @@ a{
     display: inline-block;
     font-family: "Avenir Next", sans-serif;
     font-size: 40pt;
-    color: white;
+    color: #FFFFFF;
 }
 .ip-adress{
     display: inline-block;
     font-family: "Avenir Next", sans-serif;
     font-size: 40pt;
-    color: #2e2e2e;
+    color: #2E282A;
 }
 /* MAIN TITLE */
 .main-title{
-    background-color: #2e2e2e;
+    background-color: #2E282A;
     height: 150px;
+    border-bottom: 3px solid #3E92CC;
 }
 .main-title-text{
     line-height: 200px;
@@ -56,12 +56,12 @@ a{
 }
 .menu-link-icon{
     text-align: center;
-    width: 10%;
-    height: 100px;
+    width: 15%;
+    height: 150px;
     margin: auto;
     transition-duration: 1s;
     background-image: url('http://localhost/Redcraft/media/arrow.png');
-    background-size: 90px;
+    background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -77,61 +77,83 @@ a{
 .content{
     background-color: white;
     width: 100%;
-    height: 200vh;
-}
-/* CHAT */
-.chat{
-    border-right: 2px solid black;
-    width: 19.8%;
-    display: inline-block;
-    height: 100vh;
-    float: left;
-}
-.chatfixed{
-    margin-top: -233px;
-    position: fixed;
-    border-right: 2px solid black;
-    width: 19.8%;
-    display: inline-block;
-    height: 100vh;
-    float: left;
-}
-.chat-title{
-    text-align: center;
-    font-family: "Adobe Naskh", sans-serif;
-    font-size: 70pt;
 }
 /* NEWS UPDATES */
 .news-updates{
     display: inline-block;
-    width: 80%;
+    width: 100%;
     float: right;
     text-align: center;
 }
 .news-updates-title{
-    font-family: "Avenir Next", sans-serif;
-    color: #2e2e2e;
-    font-size: 50pt;
+    font-family: "Adobe Ming Std", sans-serif;
+    color: #FFFFFF;
+    font-size: 75pt;
     border-bottom: 2px solid black;
+    background-image: url('http://localhost/Redcraft/media/images/redcraftserver1.png');
+    background-size: 100%;
+    background-position-y: 450px;
+    background-attachment: fixed;
 }
 /* POST */
 .news-updates-post{
     width: 100%;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 .news-updates-post-date{
     font-family: "Avenir Next", sans-serif;
     float: right;
     text-decoration: underline;
-    padding: 5px;
+    padding: 15px;
 }
 .news-updates-post-title{
     font-family: "Avenir Next", sans-serif;
-    font-size: 24pt;
+    font-size: 50pt;
     padding-top: 40px;
 }
 .news-updates-post-content{
-    width: 80%;
+    width: 90%;
     text-align: justify;
     margin: 50px auto;
+}
+/* FOOTER */
+.footer{
+    background-color: #2E282A;
+    height: 150px;
+    width: 100%;
+    float: right;
+    border-top: 3px solid #3E92CC;
+}
+.copyright{
+    font-family: "Avenir Next", sans-serif;
+    font-size: 20pt;
+    color: #FFFFFF;
+    margin-left: 20px;
+    display: inline;
+    line-height: 100px;
+}
+.copyright-names{
+    display: inline;
+    font-size: 10pt;
+    line-height: 150px;
+    color: #FFFFFF;
+    font-family: "Avenir Next", sans-serif;
+}
+.cms-link{
+    font-family: "Avenir Next", sans-serif;
+    color: #FFFFFF;
+    display: inline;
+    float: right;
+    margin-right: 200px;
+    font-size: 30pt;
+}
+.cms-link-text{
+    color: #D8DBE2;
+    padding: 20px;
+    background-color: #3E92CC;
+    margin-top: 22%;
+    transition-duration: 0.6s;
+}
+.cms-link-text:hover{
+    color: #FFFFFF;
 }
