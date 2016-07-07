@@ -46,7 +46,7 @@ function processData(data) {
         var postcontainer = document.getElementById('news-updates');
 
         var fullpost = document.createElement('a');
-        fullpost.setAttribute('href', 'fullpost.php?id=' + data.newsposts[i].id);
+        fullpost.setAttribute('href', 'http://localhost/Redcraft/php/fullpost.php?id=' + data.newsposts[i].id);
 
         var post = document.createElement('div');
         post.setAttribute('class', 'news-updates-post');

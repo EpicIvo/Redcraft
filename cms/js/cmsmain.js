@@ -12,7 +12,7 @@ function ajaxRequest() {
 
     var data = {};
     var request = new XMLHttpRequest();
-    request.open('GET', 'http://localhost/Redcraft/index.php', true);
+    request.open('GET', 'http://localhost/Redcraft/php/index.php', true);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
             console.log("succes");
